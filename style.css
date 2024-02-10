@@ -1,0 +1,36 @@
+body {
+  background-color:pink;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+main{background-color: pink;}
+
+.container {
+  text-align: center;
+  color: white; /* Text color set to white */
+}
+
+button {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+#yesBtn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#noBtn {
+  background-color: #f44336;
+  color: white;
+}
